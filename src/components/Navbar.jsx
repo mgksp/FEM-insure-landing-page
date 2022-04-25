@@ -17,7 +17,7 @@ function Navbar() {
       </button>
       <nav
         className={
-          !mobNavShow
+          mobNavShow
             ? "uppercase absolute top-[12vh] left-0 z-50 h-[88vh] scale-y-100 origin-top bg-dkr-violet text-white w-full transition-transform duration-200 ease-in-out"
             : "absolute top-[12vh] left-0 scale-y-0 transition-transform origin-top duration-200 ease-in-out bg-dkr-violet w-full"
         }
