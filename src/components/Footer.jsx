@@ -75,7 +75,7 @@ export default function Footer() {
 const Links = ({ title, links }) => {
   return (
     <div className="text-center uppercase font-bold tracking-widest text-[0.8125rem] md:text-left">
-      <h4 className="text-gray-500 mb-10">{title}</h4>
+      <h3 className="text-gray-500 mb-10">{title}</h3>
       <ul className="text-dk-violet font-bold">
         {links.map((link) => (
           <li key={link} className="mb-5">

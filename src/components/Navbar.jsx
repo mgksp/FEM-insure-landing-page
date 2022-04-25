@@ -16,6 +16,7 @@ function Navbar() {
           <AiOutlineMenu size={20} />
         </button>
         <nav
+          aria-label="mobile nav"
           className={
             mobNavShow
               ? "md:hidden uppercase absolute top-[12vh] left-0 z-50 h-[88vh] scale-y-100 origin-top bg-dkr-violet text-white w-full transition-transform duration-200 ease-in-out"
@@ -43,7 +44,10 @@ function Navbar() {
           />
         </nav>
 
-        <nav className="hidden md:block tracking-widest">
+        <nav
+          aria-label="desktop nav"
+          className="hidden md:block tracking-widest"
+        >
           <ul className="flex items-center font-bold gap-7 uppercase text-gray-500 text-[0.8125rem]">
             <li>
               <a className="cursor-pointer hover:text-dkr-violet" href="/">

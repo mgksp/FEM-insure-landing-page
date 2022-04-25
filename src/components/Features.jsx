@@ -57,7 +57,7 @@ const Feature = ({ img, title, desc }) => {
     <div className="grid place-items-center tracking-[0px] md:place-items-start">
       <img className="mb-8 md:mb-10" src={img} alt="" />
       <h3 className="mb-7 text-[1.75rem] font-dm-display md:mb-5">{title}</h3>
-      <p className="">{desc}</p>
+      <p className="text-gray-500">{desc}</p>
     </div>
   );
 };
