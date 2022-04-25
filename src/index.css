@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-nav {
+    @apply uppercase text-[0.8125rem] font-bold tracking-widest border-2 border-dkr-violet text-dkr-violet px-7 py-2 transition-colors duration-200 ease-in-out hover:bg-dkr-violet hover:text-white;
+  }
+  .btn {
+    @apply uppercase text-[0.8125rem] font-bold tracking-widest border-2 border-white text-white px-7 py-2 transition-colors duration-200 ease-in-out hover:bg-white hover:text-dkr-violet;
+  }
+}
